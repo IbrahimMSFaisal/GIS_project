@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Design</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/Normalize.css"/>
+    <link rel="stylesheet" href="css/cs.css"/>
+</head>
+<body>
+    <div class="settings-box">
+        <div class="toggle-settings">
+            <i class="fa fa-gear fa-spin"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="#ff9800"></li>
+                    <li data-color="#E91E63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03A9F4"></li>
+                    <li data-color="#4caf50"></li>
+                 </ul>
+            </div>
+            <div class="option-box">
+                <h4>Backgrounds</h4>
+                <div class="random-background">
+                    <span class="yes active" data-background="yes"> Yeah</span>
+                    <span class="no" data-background="no"> Nope</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show Bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes active" data-display="show"> Yeah</span>
+                    <span class="no" data-display="hide"> Nope</span>
+                </div>
+            </div>
+            <button class = "reset-options"> Reset Options</button>
+        </div>
+    </div>
+    <div class="nav-bullets">
+        <div class="bullet" data-section =".about-us">
+            <div class="tooltip">التعريف</div>
+        </div>
+        <div class="bullet" data-section =".skills">
+            <div class="tooltip">الأدوات</div>
+        </div>
+        <div class="bullet" data-section =".gallery">
+            <div class="tooltip">التطبيقات</div>
+        </div>
+        <div class="bullet" data-section =".timeline">
+            <div class="tooltip">النظري</div>
+        </div>
+        <div class="bullet" data-section =".features">
+            <div class="tooltip">الطبقات</div>
+        </div>
+        <div class="bullet" data-section =".testimonials">
+            <div class="tooltip">الآراء</div>
+        </div>
+        <div class="bullet" data-section =".contact">
+            <div class="tooltip">المساعدة</div>
+        </div>
+    </div>
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">نظم المعلومات الجغرافية</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" data-section=".about-us">التعريف</a></li>
+                        <li><a href="#" data-section=".skills">الأدوات</a></li>
+                        <li><a href="#" data-section=".gallery">التطبيقات</a></li>
+                        <li><a href="#" data-section=".timeline">النظري</a></li>
+                        <li><a href="#" data-section=".features">الطبقات</a></li>
+                        <li><a href="#" data-section=".testimonials">الآراء</a></li>
+                        <li><a href="#" data-section=".contact">المساعدة</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>  
+       <div class="introduction-text">
+           <h1>مرحبا بك في <span>صفحتك الجغرافية</span></h1>
+           <p> هنا يمكنك أن تجد كل ما تحتاجه في مجال نظم المعلومات الجغرافية </p>
+       </div>
+    </div>
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>:تعريف نظم المعلومات الجغرافية</h2>
+                <p> نظم المعلومات الجغرافية هي نمط تطبيقي لتكنولوجيا الحاسب الآلي والتي تهتم بإنجاز وظائف خاصة في مجال معالجة وتحليل المعلومان بما يتفق مع الهدف التطبيقي لها معتمدة علي كفاءة بشرية و إلكترونية </p>
+            </div>
+            <div class="image-box">
+                <img src="images/001.jpg" alt="About_us"/>
+            </div>
+        </div>
+    </div>
+    <div class="skills">
+        <div class="container">
+            <h2>الأدوات</h2>
+            <div class="skill-box">
+                <div class="skill-name">Arc Map</div>
+                <div class="skill-progress">
+                    <span data-progress="20%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Arc Catalog</div>
+                <div class="skill-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Arc Toolbox</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Arc Scene</div>
+                <div class="skill-progress">
+                    <span data-progress="85%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery">
+        <div class="container">
+            <h2>التطبيقات</h2>
+            <div class="images-box">
+                <img src="images/01.jpg" alt=" التطبيق 1 "/>
+                <img src="images/03.jpg" alt=" التطبيق 2 "/>
+                <img src="images/07.jpg" alt="التطبيق 3"/>
+                <img src="images/08.jpg" alt=" التطبيق 4 "/>
+                <img src="images/06.jpg" alt=" التطبيق 5 "/>
+            </div>
+        </div>
+    </div>
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                <div class="year">2020</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>في نهاية الرحلة بحب اشكرك علي الزيارة ، ونرجو منك وضع تقييمك لموقعنا</p>
+                        <!--<video controls autoplay>
+                            <source src="/training/videos/01.mp4">
+                        </video>-->
+                    </div>
+                </div>
+                <div class="clearfex"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>في نهاية الرحلة بحب اشكرك علي الزيارة ، ونرجو منك وضع تقييمك لموقعنا</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="features">
+        <h2>الطبقات</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="images/010.png" alt=""/>
+                <h4>E-Learning</h4>
+                <p>التعلم الإلكتروني</p>
+            </div>
+            <div class="feat-box">
+                <img src="images/030.png" alt=""/>
+                <h4>GIS</h4>
+                <p>نظم المعلومات الجغرافية</p>
+            </div>
+            <div class="feat-box">
+                <img src="images/050.png" alt=""/>
+                <h4>Layers</h4>
+                <p>طبقات ظاهرة الدراسة</p>
+            </div>
+            <div class="feat-box">
+                <img src="images/020.jpg" alt=""/>
+                <h4>GPS</h4>
+                <p>نظام تحديد المواقع </p>
+            </div>
+            <div class="clearfex"></div>
+        </div>
+    </div>
+    <div class="testimonials">
+        <div class="container">
+            <h2>الآراء</h2>
+            <div class="ts-box">
+                <p>والله انت راجل برنس كمل في طريقك الله يعينك</p>
+                <div class="person-info">
+                    <img src="images/0120.png" alt=""/>
+                    <h4>Hema</h4>
+                    <p>TAGWIFA Company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>مش عارف اقول لك اي بس الصراحة انا لفيت برا و مش لقيت افضل من كدا</p>
+                <div class="person-info">
+                    <img src="images/0110.png" alt=""/>
+                    <h4>Sarah</h4>
+                    <p>TAGWIFA Company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p> يا ابني انت شبح من يومك كمل بقا علي كدا و اوعي تستسلم...ربنا معك</p>
+                <div class="person-info">
+                    <img src="images/0130.png" alt=""/>
+                    <h4>Hager</h4>
+                    <p>TAGWIFA Company</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfex"></div>
+    </div>
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>المساعدة</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="الاسم كامل" name="username"/>
+                    <input type="number" placeholder="رقم الموبايل" name="phone"/>
+                    <input type="email" placeholder="الإيميل الخاص بك" name="email"/>
+                    <input type="text" placeholder="عنوانك" name="adress"/>
+                    <input type="text" placeholder="المشكلة" name="subject"/>
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="وصف المشكلة"></textarea>
+                    <input type="submit" name="send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">كل الحقوق محفوظة لشركة تجويفا 2020</div>
+    <script src="js/j.js"></script>
+</body>
+</html>
